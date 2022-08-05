@@ -1,0 +1,8 @@
+services:
+  client-demo:
+    image: "client-demo"
+    container_name: "client-container"
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "9090:8080"
